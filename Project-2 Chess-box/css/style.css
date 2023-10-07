@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;	
+	box-sizing:border-box;
+}
+body{
+	background-color:#996633;
+}
+.black{
+    width: calc(100%/8);   
+	height: calc(100%/8);
+	background-image: url(../image/i1.jpg);
+	float:left;
+}
+.white{
+    width: calc(100%/8);   
+	height: calc(100%/8);
+	background-image: url(../image/i2.jpg);
+	float:left;   	
+}
+.chessbox{
+     width: 700;   
+	height: 700;
+	border: 5px solid black;
+	 margin:auto;  	
+}
+.container{
+    max-width:1140px;
+	margin:0 auto;
+}
+
+.width{
+     width:100%;
+	 	
+} 
